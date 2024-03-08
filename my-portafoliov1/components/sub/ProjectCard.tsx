@@ -9,14 +9,16 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { link } from "fs";
 interface Props {
   src: string;
   title: string;
   description: string;
   githubLink?: string;
+  Link?:string;
 }
 
-const ProjectCard = ({ src, title, description, githubLink }: Props) => {
+const ProjectCard = ({ src, title, description, githubLink,Link }: Props) => {
   return (
     <motion.div
     whileHover={{ scale: 1.05,  backgroundColor:  "rgba(71, 64, 121 )"
@@ -38,21 +40,32 @@ const ProjectCard = ({ src, title, description, githubLink }: Props) => {
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
-        {githubLink && (
-          <a
-          href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 text-blue-500 hover:text-blue-700"
-            style={{ zIndex: 200 }}
-          >
-            GitHub
-          </a>
-        )}
+        <div className="flex justify-between">
+    {githubLink && (
+      <a
+        href={githubLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:text-blue-700"
+        style={{ zIndex: 300 }}
+        onClick={(event) => event.stopPropagation()} 
+      >
+        GitHub
+      </a>
+    )}
 
-
-
-
+    {Link && (
+      <a
+        href={Link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:text-blue-700"
+        style={{ zIndex: 200 }}
+      >
+        Demo
+      </a>
+    )}
+  </div>
 
       </div>
     </motion.div>
