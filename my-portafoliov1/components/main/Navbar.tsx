@@ -34,7 +34,7 @@ const Navbar = () => {
            {/* Mobile Menu Button */}
         <div className="md:hidden cursor-pointer">
           <Image
-            src="/menu.png"  // Reemplaza con tu ícono de menú
+            src="/menuv5.png"  // Reemplaza con tu ícono de menú
             alt="menu"
             width={30}
             height={30}
