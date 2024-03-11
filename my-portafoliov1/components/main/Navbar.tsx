@@ -27,7 +27,7 @@ const Navbar = () => {
             />
   
             <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-              Frontend Developer 
+              Software Developer 
             </span>
           </a>
 
@@ -112,6 +112,22 @@ const Navbar = () => {
                 key={social.name}
                 width={24}
                 height={24}
+                style={{ cursor: 'pointer' }}
+                onClick={() => {
+                  if (social.name === "Facebook" && social.link) {
+                    window.open(social.link, "_blank");
+                  }else if(social.name === "Instagram" && social.link){
+                    window.open(social.link, "_blank");
+
+                  }else if(social.name === "Discord" && social.link){
+                    window.open(social.link, "_blank");
+
+                  }
+
+
+
+                  
+                }}
               />
             ))}
           </div>

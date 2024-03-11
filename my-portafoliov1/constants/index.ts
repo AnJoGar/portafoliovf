@@ -84,15 +84,17 @@ export const Skill_data = [
     {
       name: "Discord",
       src: "instagram.svg",
-      link: "https://github.com/Mif2006/Space-Portolio/blob/main/components/main/Hero.tsx"
+      link: "https://www.instagram.com/anderson_07jg/"
     },
     {
       name: "Facebook",
-      src: "/facebook.svg",
+      src: "/linkedin1.png",
+      link: "https://www.linkedin.com/in/anderson-jordan-175591268/"
     },
     {
       name: "Instagram",
-      src: "/discord.svg",
+      src: "/github9.png",
+      link: "https://github.com/AnJoGar"
     },
   ];
   
