@@ -71,25 +71,31 @@ const Navbar = () => {
 
  {/* Mobile Navigation */}
  {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-[65px] left-[-15px] w-full bg-[#03001417] border-b border-[#2A0E61]/50">
+          <div className="md:hidden absolute top-[65px] left-[-15px] w-full z-30 px-20 border-b border-[#2A0E61]/50"
+          style={{
+            background: 'linear-gradient(to right, rgba(56, 31, 89, 0.9), rgba(3, 0, 20, 0.9))',
+            backdropFilter: 'saturate(110%)', // Si deseas mantener el filtro de saturación
+            padding: '20px',
+          }}
+        >
             <div className="flex flex-col items-center py-3">
               <a
                 href="#Hero"
-                className="font-bold cursor-pointer text-black hover:text-[#007296] transition-colors duration-50 py-2"
+                className="font-bold cursor-pointer text-white hover:text-[#007296] transition-colors duration-50 py-2"
                 onClick={toggleMobileMenu}
               >
                 Acerca de mi
               </a>
               <a
                 href="#skills"
-                className="font-bold cursor-pointer text-black hover:text-[#007296] transition-colors duration-50 py-2"
+                className="font-bold cursor-pointer text-white hover:text-[#007296] transition-colors duration-50 py-2"
                 onClick={toggleMobileMenu}
               >
                 Habilidades
               </a>
               <a
                 href="#projects"
-                className="font-bold cursor-pointer text-black hover:text-[#007296] transition-colors duration-50 py-2"
+                className="font-bold cursor-pointer text-white hover:text-[#007296] transition-colors duration-50 py-2"
                 onClick={toggleMobileMenu}
               >
                 Proyectos
