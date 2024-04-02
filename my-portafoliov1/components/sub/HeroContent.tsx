@@ -66,14 +66,14 @@ const HeroContent = () => {
        
       >
         <Image
-          src="/mia1.png"
+          src="/imgMia.png"
           alt="work icons"
-          height={300}
-          width={300}
+          height={400}
+          width={400}
           className="hidden sm:block"
         />
         <Image
-            src="/mia1.png"
+            src="/imgMia.png"
             alt="work icons"
             height={300}
             width={300}
