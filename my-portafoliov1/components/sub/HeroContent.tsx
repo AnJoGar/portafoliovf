@@ -54,7 +54,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           href="/Curriculum1.pdf"  // Reemplaza "cv.pdf" con el nombre de tu archivo PDF
           download="Curriculum1.pdf"
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] relative z-100 "
         >
           Descargar cv
         </motion.a>
