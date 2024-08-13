@@ -17,7 +17,7 @@ const Projects = () => {
         <ProjectCard
           src="/SistemaOdontologico.png"
           title="Sistema de reserva de citas odontológicas"
-          description="Proyecto desarrollado con Angular, Nodejs, .NetFramerwork y Sql server"
+          description="Proyecto desarrollado con Angular, Nodejs, ASP.NET y Sql server"
           githubLink="https://github.com/AnJoGar/SistemaAdministracionReservacionOdontologicas.git"
           
         />
@@ -64,6 +64,17 @@ const Projects = () => {
           description="Esta aplicacioón fue desarrollado en Java en el IDE Android Studio, VoxBridge integra un sistema de reconocimiento de voz que permitiendo la traducción" 
          
           githubLink="https://github.com/AnJoGar/TraductorGrupo1.git"
+          
+        />
+
+       </div>
+       <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/nutricion.png"
+          title="Aplicación web de seguimiento de ejercicios y nutrición"
+          description="Proyecto desarrollado para registrar y calcularias las calorias consumidas y quemadas por un usuario, se utilizó con Angular, Nodejs, ASP.NET y Sql server" 
+         
+          githubLink="https://github.com/AnJoGar/SistemaNutricionEjerciciosV2.git"
           
         />
 
