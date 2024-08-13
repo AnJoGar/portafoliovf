@@ -72,7 +72,7 @@ const Projects = () => {
        <ProjectCard
           src="/nutricion.png"
           title="Aplicación web de seguimiento de ejercicios y nutrición"
-          description="Proyecto desarrollado para registrar y calcularias las calorias consumidas y quemadas por un usuario, se utilizó con Angular, Nodejs, ASP.NET y Sql server" 
+          description="Proyecto desarrollado para registrar y calcular las calorias consumidas y quemadas por un usuario, se utilizó con Angular, Nodejs, ASP.NET y Sql server" 
          
           githubLink="https://github.com/AnJoGar/SistemaNutricionEjerciciosV2.git"
           
