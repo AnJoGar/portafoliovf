@@ -79,6 +79,28 @@ const Projects = () => {
         />
 
        </div>
+       <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/prediccion.png"
+          title="PrediCardio: Modelo de Predicción de Enfermedad Cardiovascular"
+          description="Modelo predictivo de aprendizaje automático diseñado para identificar la probabilidad de padecimiento de enfermedad cardiovascular, basado en características de salud y estilo de vida" 
+         
+          githubLink="https://github.com/AnJoGar/Prediccion_enfermedad_cardiaca_Proyecto.git"
+          
+        />
+
+       </div>
+       <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/prediccion.png"
+          title="PrediCardio: Modelo de Predicción de Enfermedad Cardiovascular"
+          description="Modelo predictivo de aprendizaje automático diseñado para identificar la probabilidad de padecimiento de enfermedad cardiovascular, basado en características de salud y estilo de vida" 
+         
+          githubLink="https://github.com/AnJoGar/Prediccion_enfermedad_cardiaca_Proyecto.git"
+          
+        />
+
+       </div>
            
 
       </div>

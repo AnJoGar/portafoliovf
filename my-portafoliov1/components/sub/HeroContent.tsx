@@ -46,14 +46,14 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Estudiante de 8º semestre de la carrera de software, con habilidades en el área informática, analítica, trabajo en
+          Estudiante de 10º semestre de la carrera de software, con habilidades en el área informática, analítica, trabajo en
           grupo y capacidad para resolver problemas. Principalmente interesado en el área del desarrollo de nuevas
           tecnologías, en busca de retos desafiantes en diversas áreas con el objetivo de desarrollar mi perfil profesional.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          href="/Curriculum1.pdf"  // Reemplaza "cv.pdf" con el nombre de tu archivo PDF
-          download="Curriculum1.pdf"
+          href="/Curriculum.pdf"  // Reemplaza "cv.pdf" con el nombre de tu archivo PDF
+          download="Curriculum.pdf"
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] relative z-100 "
         >
           Descargar cv
