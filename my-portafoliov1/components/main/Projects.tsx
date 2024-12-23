@@ -92,11 +92,11 @@ const Projects = () => {
        </div>
        <div className="w-full md:w-1/4">
        <ProjectCard
-          src="/prediccion.png"
-          title="PrediCardio: Modelo de Predicción de Enfermedad Cardiovascular"
-          description="Modelo predictivo de aprendizaje automático diseñado para identificar la probabilidad de padecimiento de enfermedad cardiovascular, basado en características de salud y estilo de vida" 
+          src="/red_neuronal.png"
+          title="Predict_Residuos: Modelo de Predicción de la cantidad de residuos electrónicos de Guayaquil"
+          description="Este proyecto es una API construida con Django para predecir la cantidad de residuos electrónicos de la ciudad de Guayaquil. Permitiendo la administración de datos relacionados con la cantidad de residuos y proporcionando endpoints para interactuar con la información." 
          
-          githubLink="https://github.com/AnJoGar/Prediccion_enfermedad_cardiaca_Proyecto.git"
+          githubLink="https://github.com/AnJoGar/Proyecto_Reciclaje.git"
           
         />
 
