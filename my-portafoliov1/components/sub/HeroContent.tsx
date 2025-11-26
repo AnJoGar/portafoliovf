@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Estudiante de 10º semestre de la carrera de software, con habilidades en el área informática, analítica, trabajo en
+          Egresado de la carrera de ingeniería software, con habilidades en el área informática, analítica, trabajo en
           grupo y capacidad para resolver problemas. Principalmente interesado en el área del desarrollo de nuevas
           tecnologías, en busca de retos desafiantes en diversas áreas con el objetivo de desarrollar mi perfil profesional.
         </motion.p>
