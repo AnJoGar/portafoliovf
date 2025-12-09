@@ -48,8 +48,8 @@ const Projects = () => {
        <div className="w-full md:w-1/4">
        <ProjectCard
           src="/libreria1111.png"
-          title="Aplicación de Lista de Libros"
-          description="Este sistema fue desarrollado en Angular con la funcionalidad, permitiendo a los usuarios explorar y gestionar su catálogo de libros de manera eficiente." 
+          title="Aplicación de Lista de Libros (Angular)"
+          description="Desarrollé una aplicación web para la gestión de un catálogo de libros con creación de listas de lectura. Implementé visualización dinámica del catálogo, filtrado por género, sincronización del estado global, persistencia con localStorage y sincronización entre pestañas sin backend. El proyecto incluye pruebas unitarias, arquitectura modular y despliegue en producción. Utilicé buenas prácticas de código, HTML semántico y una estructura preparada para escalar." 
           Link="https://libreriacr71.netlify.app/"
           githubLink="https://github.com/AnJoGar/SistemaAgenciaViajes.git"
           
@@ -101,6 +101,64 @@ const Projects = () => {
         />
 
        </div>
+
+
+        <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/satira.png"
+          title="Detector de Sátira — Django + Angular + NLP"
+          description="Desarrollé un sistema completo para clasificar textos como satíricos o no, usando un backend en Django, frontend en Angular y un modelo entrenado con más de 50,000 textos satíricos. Implementé modelos tradicionales de NLP y transformers mejorados con características lingüísticas propias de la sátira." 
+         
+          githubLink="https://github.com/AnJoGar/Detecctor_Satira"
+          
+        />
+
+       </div>
+
+        <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/flutter.png"
+          title="Sistema de Gestión de Créditos para Tienda de Electrónica (Flutter + .Net + Angular + PostgreSQL + Railway)"
+          description="Desarrollé una solución completa para la gestión de créditos y transacciones de un local de venta de productos electrónicos. El sistema integra un backend robusto en .NET, un dashboard administrativo en Angular, una aplicación móvil desarrollada en Flutter y una base de datos en PostgreSQL, todo desplegado en Railway.
+
+La plataforma permite administrar clientes, otorgar créditos, registrar pagos, visualizar historiales y generar reportes en tiempo real. Incluye autenticación segura, paneles de seguimiento y herramientas para facilitar el control financiero del negocio." 
+         
+          githubLink="https://github.com/AnJoGar/GestionDeCreditos"
+          
+        />
+
+       </div>
+
+
+       
+        <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/phpgt.png"
+          title="Gestión de Marcaciones de Empleados — Prueba Técnica (Laravel + Python + PostgreSQL)- EmpresaTiesdi"
+          description="Desarrollé una API completa en Laravel para gestionar marcaciones de empleados (ingreso, salida, almuerzo). La solución implementa autenticación con JWT, endpoints RESTful, validaciones de reglas laborales y conexión a base de datos PostgreSQL.
+Incluye también un script en Python que genera reportes en formato CSV a partir de un rango de fechas, extrayendo la información directamente desde la base de datos." 
+         
+          githubLink="https://github.com/AnJoGar/GestionEmpleadosPrueba"
+          
+        />
+
+       </div>
+
+               <div className="w-full md:w-1/4">
+       <ProjectCard
+          src="/angP.png"
+          title="Explorador de Personajes – Rick & Morty (Angular + REST + GraphQL)- Prueba técnica-Empresa Independiente"
+          description="Aplicación web desarrollada en Angular 14+ como parte de una prueba técnica para evaluar habilidades en consumo de APIs REST/GraphQL, manejo avanzado de observables, comunicación entre componentes y optimización de rendimiento.
+
+El sistema permite explorar personajes de la API pública Rick and Morty, visualizar detalles avanzados y gestionar favoritos, integrando funcionalidades UI/UX y lógica de negocio real." 
+         
+          githubLink="https://github.com/AnJoGar/PruebaTecnicaAngular"
+          
+        />
+
+       </div>
+
+
            
 
       </div>

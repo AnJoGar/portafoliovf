@@ -46,9 +46,17 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Egresado de la carrera de ingeniería de software, con habilidades en el área informática, analítica, trabajo en
-          grupo y capacidad para resolver problemas. Principalmente interesado en el área del desarrollo de nuevas
-          tecnologías, en busca de retos desafiantes en diversas áreas con el objetivo de desarrollar mi perfil profesional.
+          Desarrollador Full Stack (Ingeniero de software) con experiencia
+          en .NET, Angular, React, Flutter, Python y Django.
+           Construyo aplicaciones web y móviles end-to-end: APIs REST 
+           con autenticación JWT, frontends modernos, dashboards, 
+           bases de datos en PostgreSQL/SQL Server y despliegues en AWS,
+          Railway y Render.
+Domino frameworks como .NET Core, Angular, React, Django y Laravel, 
+además de integración de IA y optimización de rendimiento. 
+Capaz de desarrollar soluciones completas, escalables y 
+listas para producción.
+        
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
